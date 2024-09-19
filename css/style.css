@@ -204,7 +204,7 @@
     position: relative;
     margin-right: 25px;
     padding: 35px 0;
-    color: solid black !important;
+    color: var(--dark) !important;
     font-size: 20px;
     font-weight: bold;
     outline: none;
