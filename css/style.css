@@ -105,6 +105,8 @@
 }
 
 .section-title .sub-style {
+    margin-top: 50px;
+    padding: 20px;
     position: relative;
     display: inline-block;
     text-transform: uppercase;
@@ -202,9 +204,9 @@
     position: relative;
     margin-right: 25px;
     padding: 35px 0;
-    color: var(--bs-dark) !important;
-    font-size: 16px;
-    font-weight: 400;
+    color: solid black !important;
+    font-size: 20px;
+    font-weight: bold;
     outline: none;
     transition: .5s;
 }
@@ -254,6 +256,10 @@
 .dropdown .dropdown-menu a:hover {
     background: var(--bs-primary);
     color: var(--bs-white);
+}
+
+nav{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
 .navbar .nav-item:hover .dropdown-menu {
