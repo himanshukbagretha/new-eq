@@ -401,7 +401,7 @@ nav{
 .header-carousel .header-carousel-item img {
     position: relative;
     width: 100%;
-    height: 700px;
+    height: 500px;
     margin-top: 95px;
     display: block;
     object-fit: cover;
@@ -441,7 +441,7 @@ nav{
 .header-carousel .header-carousel-item .carousel-caption .carousel-caption-content {
     position: relative;
     width: 75%;
-    
+
 }
 /*** Carousel Hero Header End ***/
 
@@ -549,6 +549,8 @@ nav{
 }
 
 .about .about-img .about-img-inner {
+    height: 200px;
+    width: 200x;
     position: absolute;
     left: 0; 
     bottom: 0; 
