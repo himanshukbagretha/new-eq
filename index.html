@@ -538,7 +538,7 @@
                     <div class="appointment-form rounded p-5">
                         <p class="fs-4 text-uppercase text-primary">Get In Touch</p>
                         <h1 class="display-5 mb-4">Send Enquiry</h1>
-                        <form method="POST" action="home-enquiry.php">
+                        <form method="POST" action="contact-enquiry.php">
                             <div class="row gy-3 gx-4">
                                 <div class="col-xl-6">
                                     <input type="text" name="first_name" class="form-control py-3 border-primary bg-transparent text-white" placeholder="First Name" required>
@@ -550,10 +550,20 @@
                                     <input type="tel" name="phone" class="form-control py-3 border-primary bg-transparent" placeholder="Phone" required>
                                 </div>
                                 <div class="col-xl-6">
-                                    <select name="gender" class="form-select py-3 border-primary bg-transparent" required>
-                                        <option selected>Your Gender</option>
-                                        <option value="Male">Male</option>
-                                        <option value="Female">Female</option>
+                                    <select name="equipments" class="form-select py-3 border-primary bg-transparent" required>
+                                        <option selected>Chose Equipments</option>
+                                        <option value="Male">Oxygen Concentrator</option>
+                                        <option value="Female">BiPAP Machine</option>
+                                        <option value="Others">CPAP Machine</option>
+                                        <option value="Others">Canula Nasal Pipe</option>
+                                        <option value="Others">Wheelchair</option>
+                                        <option value="Others">Walking Aids</option>
+                                        <option value="Others">Anti Decubitus Mattress</option>
+                                        <option value="Others">Blood Pressure Monitor</option>
+                                        <option value="Others">Portable Oxygen Concentrator</option>
+                                        <option value="Others">Hospital Bed</option>
+                                        <option value="Others">Suction Machine</option>
+                                        <option value="Others">ICU Hospital Beds</option>
                                         <option value="Others">Others</option>
                                     </select>
                                 </div>

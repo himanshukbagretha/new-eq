@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $first_name = htmlspecialchars($_POST['first_name']);
     $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
     $phone = htmlspecialchars($_POST['phone']);
-    $gender = htmlspecialchars($_POST['gender']);
+    $equipments = htmlspecialchars($_POST['equipments']);
     $comments = htmlspecialchars($_POST['comments']);
 
     $mail = new PHPMailer(true);
@@ -31,12 +31,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         //Content
         $mail->isHTML(true);
-        $mail->Subject = 'New Form Submission';
+        $mail->Subject = 'New Form Enquiry';
         $mail->Body = "
             Name: $first_name<br>
             Email: $email<br>
             Phone: $phone<br>
-            Gender: $gender<br>
+            Equipments: $equipments<br>
             Comments: $comments
         ";
 
