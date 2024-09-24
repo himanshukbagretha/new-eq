@@ -66,7 +66,7 @@
         <!-- Navbar & Hero Start -->
         <div class="container-fluid position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
-                <a href="index.html" class="navbar-brand p-0">
+                <a href="index.php" class="navbar-brand p-0">
                     <img src="img/logo.png" alt="Logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -74,13 +74,13 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About Us</a>
-                        <a href="equipments.html" class="nav-item nav-link">Equipments</a>
-                        <a href="service.html" class="nav-item nav-link active">Services</a>
-                        <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                        <a href="index.php" class="nav-item nav-link">Home</a>
+                        <a href="about.php" class="nav-item nav-link">About Us</a>
+                        <a href="equipments.php" class="nav-item nav-link">Equipments</a>
+                        <a href="service.php" class="nav-item nav-link active">Services</a>
+                        <a href="contact.php" class="nav-item nav-link">Contact Us</a>
                     </div>
-                    <a href="contact.html" class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0">Rent Equipments</a>
+                    <a href="contact.php" class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0">Rent Equipments</a>
                 </div>
             </nav>
         </div>
@@ -91,8 +91,8 @@
             <div class="container text-center py-5" style="max-width: 900px;">
                 <h3 class="text-white display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">Our Services</h1>
                 <ol class="breadcrumb justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item"><a href="about.html">About Us</a></li>
+                    <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                    <li class="breadcrumb-item"><a href="about.php">About Us</a></li>
                     <li class="breadcrumb-item active text-primary">Services</li>
                 </ol>    
             </div>
@@ -259,12 +259,12 @@
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item d-flex flex-column">
                             <h4 class="mb-4 text-white">Quick Links</h4>
-                            <a href="index.html"><i class="fas fa-angle-right me-2"></i> Home</a>
-                            <a href="about.html"><i class="fas fa-angle-right me-2"></i> About Us</a>
-                            <a href="contact.html"><i class="fas fa-angle-right me-2"></i> Contact Us</a>
-                            <a href="service.html"><i class="fas fa-angle-right me-2"></i> Services</a>
-                            <a href="equipments.html"><i class="fas fa-angle-right me-2"></i> Equipments</a>
-                            <a href="about.html"><i class="fas fa-angle-right me-2"></i> Our Team</a>
+                            <a href="index.php"><i class="fas fa-angle-right me-2"></i> Home</a>
+                            <a href="about.php"><i class="fas fa-angle-right me-2"></i> About Us</a>
+                            <a href="contact.php"><i class="fas fa-angle-right me-2"></i> Contact Us</a>
+                            <a href="service.php"><i class="fas fa-angle-right me-2"></i> Services</a>
+                            <a href="equipments.php"><i class="fas fa-angle-right me-2"></i> Equipments</a>
+                            <a href="about.php"><i class="fas fa-angle-right me-2"></i> Our Team</a>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-3">
