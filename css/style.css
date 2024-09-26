@@ -1203,6 +1203,9 @@ nav{
     height: 500px;
     margin: 0 auto;
     overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 2px;
+    border: 2px solid;  
   }
   
   .slider {
@@ -1224,61 +1227,51 @@ nav{
     object-fit: cover;
   }
   
-  .mini-form {
-    width: 300px;
-    height: 400px;
-    position: absolute;
-    top: 10%;
-    left: 5%;
-    background-color: blue;
-    padding: 20px;
-    border-radius: 5px;
-  }
-  .mini-form input, .mini-form button{
-    width: 100%;
-      margin-bottom: 10px;
-      padding: 10px;
-      font-size: 16px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      
-  }
-  .enquiry-form h1{
-    font-size: 24px;
-    text-align: center;
-    font-family: sans-serif;
-    color: solid rgb(255, 255, 255);
-  }
-  .mini-form h1, label{
-    color:white;
-  }
-  .enquiry-form button {
-      width: 100%;
-      margin-top: 10px;
-      margin-bottom: 10px;
-      padding: 10px;
-      font-size: 16px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      text-align: center;
-  }
-  
-  .enquiry-form button {
-      background-color: #00ccff;
-      color: white;
-      border: none;
-      cursor: pointer;
-  }
-  
-  .enquiry-form button:hover {
-      background-color: #0056b3;
-  }
+
+.text-overlay {
+    position: absolute; 
+    top: 50%; 
+    left: 100px; 
+    transform: translateY(-50%); 
+    color: black; 
+    z-index: 1; 
+}
+
+.text-title, .text-subtitle, .text-description {
+    margin: 0; 
+    padding: 0; 
+}
+
+.text-title {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 60px; 
+}
+
+.text-subtitle {
+    font-size: 40px; 
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text-description {
+    font-size: 24px; 
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
   
   .prev, .next {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    color: #0056b3;
+    color: var(--bs-dark);
     padding: 16px;
     cursor: pointer;
     font-size: 32px;
