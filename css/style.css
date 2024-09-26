@@ -449,7 +449,7 @@ nav{
 
 /*** Single Page Hero Header Start ***/
 .bg-breadcrumb {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/carousel-2.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/carousel.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -628,7 +628,7 @@ nav{
 
 /*** Appointment Start ***/
 .appointment {
-    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../img/carousel-2.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../img/carousel.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -812,7 +812,7 @@ nav{
 
 /*** testimonial Start ***/
 .testimonial {
-    background: linear-gradient(rgba(21, 185, 217, 0.9), rgba(21, 185, 217, 0.9)), url(../img/carousel-1.jpg);
+    background: linear-gradient(rgba(21, 185, 217, 0.9), rgba(21, 185, 217, 0.9)), url(../img/carousel.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1068,7 +1068,7 @@ nav{
 
 /*** Contact Start ***/
 .contact {
-    background: linear-gradient(rgba(21, 185, 217, 0.9), rgba(21, 185, 217, 0.9)), url(../img/carousel-1.jpg);
+    background: linear-gradient(rgba(21, 185, 217, 0.9), rgba(21, 185, 217, 0.9)), url(../img/carousel.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1205,7 +1205,7 @@ nav{
     overflow: hidden;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 2px;
-    border: 2px solid;  
+     
   }
   
   .slider {
