@@ -1191,7 +1191,7 @@ nav{
 
 /*** copyright Start ***/
 .copyright {
-    background: var(--bs-dark) !important;
+    background: #3e3f94 !important;
 }
 /*** copyright end ***/
 
@@ -1233,7 +1233,7 @@ nav{
     top: 50%; 
     left: 100px; 
     transform: translateY(-50%); 
-    color: black; 
+    color: var(--bs-primary); 
     z-index: 1; 
 }
 
